@@ -1,3 +1,5 @@
+#require_relative '..lib/display_rainbow.rb'
+
 describe '#display_rainbow' do
   it 'accepts one argument' do
     allow(self).to receive(:puts)
