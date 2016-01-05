@@ -1,4 +1,4 @@
 # Write your #display_rainbow method here
-def display_rainbow(hash)
-  puts "R: #{hash[0]}, O: #{hash[1]}, Y: #{hash[2]}, G: #{hash[3]}, B: #{hash[4]}, I: #{hash[5]}, V: #{hash[6]}"
+def display_rainbow(array)
+  puts "R: #{array[0]}, O: #{array[1]}, Y: #{array[2]}, G: #{array[3]}, B: #{array[4]}, I: #{array[5]}, V: #{array[6]}"
 end
