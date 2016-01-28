@@ -1,11 +1,17 @@
 # Write your #display_rainbow method here
 def display_rainbow(colors)
-  if colors.empty? == false
-    puts color_prefixer(colors[0]) + ', ' + color_prefixer(colors[1]) + ', ' +  color_prefixer(colors[2]) + ', ' +  color_prefixer(colors[3]) + ', ' +  color_prefixer(colors[4]) + ', ' +  color_prefixer(colors[5]) + ', ' +  color_prefixer(colors[6])
+  if !colors.empty?
+    puts _p(colors[0]) + ', ' + 
+         _p(colors[1]) + ', ' +  
+         _p(colors[2]) + ', ' +  
+         _p(colors[3]) + ', ' +  
+         _p(colors[4]) + ', ' +  
+         _p(colors[5]) + ', ' +  
+         _p(colors[6])
   end
 end
 
-def color_prefixer(color)
+def _p(color)
   color[0].upcase + ': ' + color
 end
 
