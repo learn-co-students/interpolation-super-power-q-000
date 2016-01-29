@@ -1,4 +1,4 @@
-describe '#display_rainbow' do
+describe 'display_rainbow' do
   it 'accepts one argument' do
     allow(self).to receive(:puts)
 
