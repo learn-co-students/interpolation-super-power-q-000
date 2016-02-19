@@ -1,3 +1,6 @@
-display_rainbow = ["red","orange","yellow","green","blue","indigo","violet"]
-puts display_rainbow
+color = ["red","orange","yellow","green","blue","indigo","violet"]
+def display_rainbow(color)
+  end
+puts "R" + 1
+
 
